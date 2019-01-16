@@ -7,7 +7,7 @@ function weather(){
 	console.log (result);
 
 	let city = document.getElementById('input').value;
-	let url = 'http://api.openweathermap.org/data/2.5/weather?q='+city+'&appid='+APIkey;
+	let url = 'https://api.openweathermap.org/data/2.5/weather?q='+city+'&appid='+APIkey;
 
 	let xhr = new XMLHttpRequest();
 
